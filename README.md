@@ -36,10 +36,8 @@ Extract the chromedriver.exe file.
 Place it in the same folder as the visa_bot.exe file.
 
 🚀 How to Use
-navigate to "dist" folder->"visa_bot" folder-> run visa_bot.exe 
-sometimes visa_bot.exe and chromedriver.exe must be in the same folder(just put a chromedriver there if missing).
-
-Double-click on visa_bot.exe.
+run visa_bot.exe 
+sometimes visa_bot.exe and chromedriver.exe must be in the same folder
 
 Follow the prompts on screen to select your country, city, and login credentials.
 
