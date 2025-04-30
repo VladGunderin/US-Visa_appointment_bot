@@ -36,15 +36,19 @@ Extract the chromedriver.exe file.
 Place it in the same folder as the visa_bot.exe file.
 
 🚀 How to Use
+
 run visa_bot.exe 
+
 sometimes visa_bot.exe and chromedriver.exe must be in the same folder
 
 Follow the prompts on screen to select your country, city, and login credentials.
 
 ⚠️ Privacy Notice:
+
 Your email and password are stored only in memory during runtime and are automatically discarded once the program is closed.
 
 🛠️ Want to Modify the Source Code?
+
 Make sure you have Python installed (preferably Python 3.10–3.13), then install the required libraries:
 
 pip install selenium
