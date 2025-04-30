@@ -52,30 +52,43 @@ Your email and password are stored only in memory during runtime and are automat
 Make sure you have Python installed (preferably Python 3.10–3.13), then install the required libraries:
 
 pip install selenium
+
 pip install pyautogui
+
 pip install pyinstaller
+
 
 To run the script as a .py file:
 
 python visa_bot.py
+
 🏗️ Generate an Executable (.exe) from the Script
+
 Navigate to the folder containing visa_bot.py.
 
 Right-click in the folder background → "Open in Terminal".
 
 In the terminal, run:
 
+
 pyinstaller --onefile visa_bot.py
+
+
 This creates a dist folder containing visa_bot.exe.
 
 ⚙️ Optional: Modify the .spec File
+
+
 If you want to customize the PyInstaller build (e.g., hide the console window), modify the generated visa_bot.spec file.
 
 After editing, recompile using:
 
+
 pyinstaller visa_bot.spec
 
+
 Go to the "dist" folder.
+
 run visa_bot.exe and follow the prompts on the screen
 
 inspiration for the build: https://github.com/mahdiaredraki/Automated-US-Visa-Appointment-Finder.git
